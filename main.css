@@ -78,6 +78,11 @@ path:hover, circle:hover {
   grid-template-columns: 2fr 1fr;
 }
 
+#two_reps {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
 
 /* media queries */
 
@@ -86,9 +91,15 @@ path:hover, circle:hover {
     display: flex;
     flex-direction: column;
   }
-  .order_container_map {
-    order: 2;
+  #order_container_map {
+    order: 2 !important;
   }
+
+  #two_reps {
+    display: flex !important;
+    flex-direction: column;
+  }
+
   .info_box_container {
     align-self: center;
     min-height: 180px;
