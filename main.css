@@ -19,10 +19,10 @@ path:hover, circle:hover {
   cursor: default;
 }
 #info-box {
-  position: relative;
+  /* position: relative; */
   /* top: 0px;
   left: 0px;  */
-  z-index: 1;
+  /* z-index: 1;
   background-color: #ffffff;
   border-radius: 5px;
   padding: 5px;
@@ -30,7 +30,7 @@ path:hover, circle:hover {
   margin-left: auto;
   margin-right: auto;
   margin-top: 20px;
-  font-family: arial;
+  font-family: arial; */
 }
 
 .svg_container {
@@ -45,29 +45,59 @@ path:hover, circle:hover {
  /* this is the main container for the rep information */
  .rep_info {
      /* style the container here */
-     color: green;
  }
  /* this is the state name in the info box */
  .state_name {
-     color: red;
+  font-size: 1.5em;
  }
 
  .rep_name {
-    color: black;
  }
 
  .rep_email {
-    color: yellow;
 
  }
  .rep_number {
-    color: blue;
  }
 
  .rep_company_name {
-     color: purple;
  }
 
 .company_link {
-    color: black;
+}
+
+/* map container  */
+
+.map_container_grid {
+  display: grid; 
+  grid-template-columns: 2fr 1fr;
+}
+
+
+/* media queries */
+
+@media only screen and (max-width: 860px) {
+  .map_container_grid {
+    display: flex;
+    flex-direction: column;
+  }
+  .order_container_map {
+    order: 2;
+  }
+  .info_box_container {
+    align-self: center;
+    min-height: 180px;
+  }
+  /* .map_container_grid {
+    display: flex;
+    flex-direction: column;
+    background: green;
+
+  };
+  .order_container_map {
+    order: 2 !important;
+  }
+  #info-box {
+    order: 1;
+  } */
 }
