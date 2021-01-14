@@ -45,25 +45,30 @@ path:hover, circle:hover {
  /* this is the main container for the rep information */
  .rep_info {
      /* style the container here */
+     font-size: 1.2em;
  }
  /* this is the state name in the info box */
  .state_name {
-  font-size: 1.5em;
+  font-size: 1.2em;
  }
 
  .rep_name {
+   font-size: 1em;
  }
 
  .rep_email {
-
+  font-size: 1em;
  }
  .rep_number {
+   font-size: 1em;
  }
 
  .rep_company_name {
+   font-size: 1em;
  }
 
 .company_link {
+  font-size: 1em;
 }
 
 /* map container  */
@@ -88,16 +93,4 @@ path:hover, circle:hover {
     align-self: center;
     min-height: 180px;
   }
-  /* .map_container_grid {
-    display: flex;
-    flex-direction: column;
-    background: green;
-
-  };
-  .order_container_map {
-    order: 2 !important;
-  }
-  #info-box {
-    order: 1;
-  } */
 }
