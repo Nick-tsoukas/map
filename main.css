@@ -1,4 +1,4 @@
-#us-map{
+#us-map {
   display: block;
   position: relative;
   top: 0;
@@ -6,66 +6,57 @@
   width: 100%;
   height: 100%;
 }
-path:hover, circle:hover {
+
+path:hover,
+circle:hover {
   stroke: #002868 !important;
-  stroke-width:2px;
+  stroke-width: 2px;
   stroke-linejoin: round;
   fill: #002868 !important;
   cursor: pointer;
 }
+
 #path67 {
   fill: none !important;
   stroke: #A9A9A9 !important;
   cursor: default;
 }
-#info-box {
-  /* position: relative; */
-  /* top: 0px;
-  left: 0px;  */
-  /* z-index: 1;
-  background-color: #ffffff;
-  border-radius: 5px;
-  padding: 5px;
-  width: 50%;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 20px;
-  font-family: arial; */
-}
 
 .svg_container {
-    position: static;
+  position: static;
 }
 
 
 .nav_text {
-    font-size: 24px;
+  font-size: 24px;
 }
 
- /* this is the main container for the rep information */
- .rep_info {
-     /* style the container here */
-     font-size: 1.2em;
- }
- /* this is the state name in the info box */
- .state_name {
+/* this is the main container for the rep information */
+.rep_info {
+  /* style the container here */
   font-size: 1.2em;
- }
+}
 
- .rep_name {
-   font-size: 1em;
- }
+/* this is the state name in the info box */
+.state_name {
+  font-size: 1.2em;
+}
 
- .rep_email {
+.rep_name {
   font-size: 1em;
- }
- .rep_number {
-   font-size: 1em;
- }
+}
 
- .rep_company_name {
-   font-size: 1em;
- }
+.rep_email {
+  font-size: 1em;
+}
+
+.rep_number {
+  font-size: 1em;
+}
+
+.rep_company_name {
+  font-size: 1em;
+}
 
 .company_link {
   font-size: 1em;
@@ -74,7 +65,7 @@ path:hover, circle:hover {
 /* map container  */
 
 .map_container_grid {
-  display: grid; 
+  display: grid;
   grid-template-columns: 2fr 1fr;
 }
 
@@ -91,6 +82,7 @@ path:hover, circle:hover {
     display: flex;
     flex-direction: column;
   }
+
   #order_container_map {
     order: 2 !important;
   }
