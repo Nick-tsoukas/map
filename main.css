@@ -23,6 +23,7 @@ circle:hover {
 }
 
 .svg_container {
+  max-height: 300px;
   position: static;
 }
 
@@ -81,6 +82,8 @@ circle:hover {
   .map_container_grid {
     display: flex;
     flex-direction: column;
+    margin-top: -3em;
+    background: red;
   }
 
   #order_container_map {
@@ -89,7 +92,7 @@ circle:hover {
 
   #two_reps {
     display: flex !important;
-    flex-direction: column;
+    flex-direction: column-reverse;
   }
 
   .info_box_container {
